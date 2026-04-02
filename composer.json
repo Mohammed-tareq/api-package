@@ -5,7 +5,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "App\\": "src/"
+      "MohammedTareq\\ApiConfig\\": "src/"
     },
     "files": [
       "src/Helper/helper.php"
@@ -20,7 +20,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://github.com/Mohammed-tareq/api-package.git"
+      "url": "https://github.com/mohammed-tareq/api-package.git"
     }
   ],
   "minimum-stability": "dev",
@@ -28,10 +28,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "App\\ApiConfigServiceProvider"
+       "MohammedTareq\\ApiConfig\\ApiConfigServiceProvider"
       ],
       "aliases": {
-        "Api": "App\\Facade"
+        "Api": "MohammedTareq\\ApiConfig\\Facade"
       }
     }
   }

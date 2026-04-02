@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helper;
+namespace MohammedTareq\ApiConfig\Helper;
 
 
 if(!function_exists('apiResponseHelper')){

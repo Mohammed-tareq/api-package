@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Exceptions;
+namespace MohammedTareq\ApiConfig\Exceptions;
 
-use App\Traits\ApiResponserError;
+use MohammedTareq\ApiConfig\Traits\ApiResponserError;
 use Illuminate\Http\Request;
 use Throwable;
 use Illuminate\Auth\AuthenticationException;

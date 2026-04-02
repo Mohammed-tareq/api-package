@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Providers;
+namespace MohammedTareq\ApiConfig\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
