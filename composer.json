@@ -17,6 +17,12 @@
       "email": "mohtareq1999m@gmail.com"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Mohammed-tareq/api-package.git"
+    }
+  ],
   "minimum-stability": "dev",
   "require": {},
   "extra": {
@@ -24,9 +30,9 @@
       "providers": [
         "App\\ApiConfigServiceProvider"
       ],
-        "aliases": {
-            "Api": "App\\Facade"
-        }
+      "aliases": {
+        "Api": "App\\Facade"
+      }
     }
   }
 }
