@@ -23,6 +23,7 @@
       "url": "https://github.com/mohammed-tareq/api-package.git"
     }
   ],
+  
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {},
