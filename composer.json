@@ -1,0 +1,19 @@
+{
+    "name": "mohammed-tareq/api-config",
+    "description": "api handle with exptions and triats",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MohammedTareq\\ApiConfig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammed-tareq",
+            "email": "mohtareq1999m@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
