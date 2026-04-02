@@ -1,11 +1,11 @@
 <?php
 
 
-namespace MohammedTareq\ApiConfig\Providers;
+namespace MohammedTareq\ApiConfig;
 
 use Illuminate\Support\ServiceProvider;
 
-class ApiServiceProvider extends ServiceProvider
+class ApiConfigServiceProvider  extends ServiceProvider
 {
     /**
      * Register any application services.

@@ -24,11 +24,12 @@
     }
   ],
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {},
   "extra": {
     "laravel": {
       "providers": [
-       "MohammedTareq\\ApiConfig\\ApiConfigServiceProvider"
+        "MohammedTareq\\ApiConfig\\ApiConfigServiceProvider"
       ],
       "aliases": {
         "Api": "MohammedTareq\\ApiConfig\\Facade"
