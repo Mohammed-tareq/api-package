@@ -7,4 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'MohammedTareq\\ApiConfig\\ApiConfigServiceProvider' => $baseDir . '/src/ApiConfigServiceProvider.php',
+    'MohammedTareq\\ApiConfig\\Exceptions\\ApiHandler' => $baseDir . '/src/Exceptions/ApiHandler.php',
+    'MohammedTareq\\ApiConfig\\Exceptions\\ApiHandler2' => $baseDir . '/src/Exceptions/ApiHandler2.php',
+    'MohammedTareq\\ApiConfig\\Traits\\ApiResponse' => $baseDir . '/src/Traits/ApiResponse.php',
+    'MohammedTareq\\ApiConfig\\Traits\\ApiResponserError' => $baseDir . '/src/Traits/ApiResponserError.php',
 );

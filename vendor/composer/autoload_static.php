@@ -26,6 +26,11 @@ class ComposerStaticInit9160378abfcd5e163bc27164951d9cd1
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'MohammedTareq\\ApiConfig\\ApiConfigServiceProvider' => __DIR__ . '/../..' . '/src/ApiConfigServiceProvider.php',
+        'MohammedTareq\\ApiConfig\\Exceptions\\ApiHandler' => __DIR__ . '/../..' . '/src/Exceptions/ApiHandler.php',
+        'MohammedTareq\\ApiConfig\\Exceptions\\ApiHandler2' => __DIR__ . '/../..' . '/src/Exceptions/ApiHandler2.php',
+        'MohammedTareq\\ApiConfig\\Traits\\ApiResponse' => __DIR__ . '/../..' . '/src/Traits/ApiResponse.php',
+        'MohammedTareq\\ApiConfig\\Traits\\ApiResponserError' => __DIR__ . '/../..' . '/src/Traits/ApiResponserError.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
